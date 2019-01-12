@@ -1,0 +1,1550 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HKServiceError"
+- "dateOfBirth"
+- "bloodType"
+- "biologicalSex"
+- "skinType"
+- "activity"
+- "pressureS"
+- "pressureD"
+- "heartRate"
+- "bodyTemperature"
+- "respiratoryRate"
+- "bodyMassIndex"
+- "height"
+- "bodyMass"
+- "leanBodyMass"
+- "bodyFatPercentage"
+- "exersizeTime"
+- "standHour"
+- "stepCount"
+- "distanceCycling"
+- "distanceWalk"
+- "distanceWheelchair"
+- "distanceSwimming"
+- "basalEnergyBurned"
+- "activeEnergyBurned"
+- "flightsClimbed"
+- "nikeFuel"
+- "workout"
+- "protein"
+- "vitaminsA"
+- "vitaminsB6"
+- "vitaminsB12"
+- "vitaminsC"
+- "vitaminsD"
+- "vitaminsK"
+- "vitaminsE"
+- "water"
+- "fatIn"
+- "iron"
+- "iodine"
+- "potassium"
+- "calcium"
+- "fiber"
+- "caffein"
+- "magnesium"
+- "manganese"
+- "copper"
+- "molibdenum"
+- "monofats"
+- "saturatedfats"
+- "sodium"
+- "nikotin"
+- "pantocid"
+- "polifat"
+- "riboflavin"
+- "sugar"
+- "selenium"
+- "carbs"
+- "folat"
+- "phoshor"
+- "cloride"
+- "chlororestertine"
+- "chrome"
+- "zinc"
+- "energy"
+- "sleep"
+- "basalTemp"
+- "bleedings"
+- "menstrual"
+- "ouvalation"
+- "sexactive"
+- "cervical"
+- "alckohol"
+- "glucose"
+- "inhalerUse"
+- "falls"
+- "oxygen"
+- "breathvolume"
+- "peripheralP"
+- "ufIndecs"
+- "forcevitak"
+- "electroderma"
+- "HKServiceImp"
+provides-nominal:
+- "12HKDataExport14HKServiceErrorO"
+- "12HKDataExport12HKServiceImpC"
+provides-member:
+- ["12HKDataExport14HKServiceErrorO", ""]
+- ["12HKDataExport12HKServiceImpC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "+="
+- !private "=="
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Date"
+- !private "DispatchQueue"
+- "DispatchSemaphore"
+- "Error"
+- "Float"
+- "FloatLiteralType"
+- !private "HKActivitySummaryType"
+- "HKCategoryType"
+- "HKObjectType"
+- "HKQuantityType"
+- "HKQueryAnchor"
+- "HKRepository"
+- "HKRepositoryImp"
+- "HKSampleType"
+- "HKService"
+- "HKServiceError"
+- "HKServiceImp"
+- "HKStorage"
+- "HKStorageImp"
+- "HKUnit"
+- !private "HKWorkoutType"
+- "Int"
+- "IntegerLiteralType"
+- "OperationQueue"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- !private "TernaryPrecedence"
+- "UnicodeScalarType"
+- "activeEnergyBurned"
+- "activity"
+- "alckohol"
+- "basalEnergyBurned"
+- "basalTemp"
+- "biologicalSex"
+- "bleedings"
+- "bloodType"
+- "bodyFatPercentage"
+- "bodyMass"
+- "bodyMassIndex"
+- "bodyTemperature"
+- "breathvolume"
+- "caffein"
+- "calcium"
+- "carbs"
+- "cervical"
+- "chlororestertine"
+- "chrome"
+- "cloride"
+- "copper"
+- "dateOfBirth"
+- "distanceCycling"
+- "distanceSwimming"
+- "distanceWalk"
+- "distanceWheelchair"
+- "electroderma"
+- "energy"
+- "exersizeTime"
+- "falls"
+- "fatIn"
+- "fiber"
+- "flightsClimbed"
+- "folat"
+- "forcevitak"
+- "glucose"
+- "heartRate"
+- "height"
+- "inhalerUse"
+- "iodine"
+- "iron"
+- "leanBodyMass"
+- "magnesium"
+- "manganese"
+- "menstrual"
+- "molibdenum"
+- "monofats"
+- "nikeFuel"
+- "nikotin"
+- "ouvalation"
+- "oxygen"
+- "pantocid"
+- "peripheralP"
+- "phoshor"
+- "polifat"
+- "potassium"
+- "pressureD"
+- "pressureS"
+- "protein"
+- "respiratoryRate"
+- "riboflavin"
+- "saturatedfats"
+- "selenium"
+- "sexactive"
+- "skinType"
+- "sleep"
+- "sodium"
+- "standHour"
+- "stepCount"
+- "sugar"
+- "ufIndecs"
+- "vitaminsA"
+- "vitaminsB12"
+- "vitaminsB6"
+- "vitaminsC"
+- "vitaminsD"
+- "vitaminsE"
+- "vitaminsK"
+- "water"
+- "workout"
+- "zinc"
+- !private "~="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "activitySummaryType"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "async"]
+- ["s7CVarArgP", "categoryType"]
+- ["s7CVarArgP", "characteristicType"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "degreeCelsius"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "gram"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "kilocalorie"]
+- !private ["s7CVarArgP", "liter"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "maxConcurrentOperationCount"]
+- !private ["s7CVarArgP", "meter"]
+- !private ["s7CVarArgP", "minute"]
+- !private ["s7CVarArgP", "percent"]
+- ["s7CVarArgP", "quantityType"]
+- !private ["s7CVarArgP", "siemen"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unitDivided"]
+- ["s7CVarArgP", "workoutType"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "activitySummaryType"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "categoryType"]
+- ["s28CustomDebugStringConvertibleP", "characteristicType"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "degreeCelsius"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "gram"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "kilocalorie"]
+- !private ["s28CustomDebugStringConvertibleP", "liter"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s28CustomDebugStringConvertibleP", "meter"]
+- !private ["s28CustomDebugStringConvertibleP", "minute"]
+- !private ["s28CustomDebugStringConvertibleP", "percent"]
+- ["s28CustomDebugStringConvertibleP", "quantityType"]
+- !private ["s28CustomDebugStringConvertibleP", "siemen"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unitDivided"]
+- ["s28CustomDebugStringConvertibleP", "workoutType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "activitySummaryType"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- ["s23CustomStringConvertibleP", "categoryType"]
+- ["s23CustomStringConvertibleP", "characteristicType"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "degreeCelsius"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "gram"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "kilocalorie"]
+- !private ["s23CustomStringConvertibleP", "liter"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s23CustomStringConvertibleP", "meter"]
+- !private ["s23CustomStringConvertibleP", "minute"]
+- !private ["s23CustomStringConvertibleP", "percent"]
+- ["s23CustomStringConvertibleP", "quantityType"]
+- !private ["s23CustomStringConvertibleP", "siemen"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unitDivided"]
+- ["s23CustomStringConvertibleP", "workoutType"]
+- ["10Foundation4DateV", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "activeEnergyBurned"]
+- ["SQ", "activitySummaryType"]
+- !private ["SQ", "addOperation"]
+- ["SQ", "appleExerciseTime"]
+- ["SQ", "appleStandHour"]
+- !private ["SQ", "async"]
+- ["SQ", "basalBodyTemperature"]
+- ["SQ", "basalEnergyBurned"]
+- ["SQ", "biologicalSex"]
+- ["SQ", "bloodAlcoholContent"]
+- ["SQ", "bloodGlucose"]
+- ["SQ", "bloodPressureDiastolic"]
+- ["SQ", "bloodPressureSystolic"]
+- ["SQ", "bloodType"]
+- ["SQ", "bodyFatPercentage"]
+- ["SQ", "bodyMass"]
+- ["SQ", "bodyMassIndex"]
+- ["SQ", "bodyTemperature"]
+- ["SQ", "categoryType"]
+- ["SQ", "cervicalMucusQuality"]
+- ["SQ", "characteristicType"]
+- !private ["SQ", "count"]
+- ["SQ", "dateOfBirth"]
+- !private ["SQ", "degreeCelsius"]
+- ["SQ", "dietaryCaffeine"]
+- ["SQ", "dietaryCalcium"]
+- ["SQ", "dietaryCarbohydrates"]
+- ["SQ", "dietaryChloride"]
+- ["SQ", "dietaryCholesterol"]
+- ["SQ", "dietaryChromium"]
+- ["SQ", "dietaryCopper"]
+- ["SQ", "dietaryEnergyConsumed"]
+- ["SQ", "dietaryFatMonounsaturated"]
+- ["SQ", "dietaryFatPolyunsaturated"]
+- ["SQ", "dietaryFatSaturated"]
+- ["SQ", "dietaryFatTotal"]
+- ["SQ", "dietaryFiber"]
+- ["SQ", "dietaryFolate"]
+- ["SQ", "dietaryIodine"]
+- ["SQ", "dietaryIron"]
+- ["SQ", "dietaryMagnesium"]
+- ["SQ", "dietaryManganese"]
+- ["SQ", "dietaryMolybdenum"]
+- ["SQ", "dietaryNiacin"]
+- ["SQ", "dietaryPantothenicAcid"]
+- ["SQ", "dietaryPhosphorus"]
+- ["SQ", "dietaryPotassium"]
+- ["SQ", "dietaryProtein"]
+- ["SQ", "dietaryRiboflavin"]
+- ["SQ", "dietarySelenium"]
+- ["SQ", "dietarySodium"]
+- ["SQ", "dietarySugar"]
+- ["SQ", "dietaryVitaminA"]
+- ["SQ", "dietaryVitaminB12"]
+- ["SQ", "dietaryVitaminB6"]
+- ["SQ", "dietaryVitaminC"]
+- ["SQ", "dietaryVitaminD"]
+- ["SQ", "dietaryVitaminE"]
+- ["SQ", "dietaryVitaminK"]
+- ["SQ", "dietaryWater"]
+- ["SQ", "dietaryZinc"]
+- ["SQ", "distanceCycling"]
+- ["SQ", "distanceSwimming"]
+- ["SQ", "distanceWalkingRunning"]
+- ["SQ", "distanceWheelchair"]
+- ["SQ", "electrodermalActivity"]
+- ["SQ", "fitzpatrickSkinType"]
+- ["SQ", "flightsClimbed"]
+- ["SQ", "forcedExpiratoryVolume1"]
+- ["SQ", "forcedVitalCapacity"]
+- !private ["SQ", "global"]
+- !private ["SQ", "gram"]
+- ["SQ", "heartRate"]
+- ["SQ", "height"]
+- ["SQ", "inhalerUsage"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intermenstrualBleeding"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "kilocalorie"]
+- ["SQ", "leanBodyMass"]
+- !private ["SQ", "liter"]
+- !private ["SQ", "map"]
+- !private ["SQ", "maxConcurrentOperationCount"]
+- ["SQ", "menstrualFlow"]
+- !private ["SQ", "meter"]
+- !private ["SQ", "minute"]
+- ["SQ", "nikeFuel"]
+- ["SQ", "numberOfTimesFallen"]
+- ["SQ", "ovulationTestResult"]
+- ["SQ", "oxygenSaturation"]
+- ["SQ", "peakExpiratoryFlowRate"]
+- !private ["SQ", "percent"]
+- ["SQ", "quantityType"]
+- !private ["SQ", "rawValue"]
+- ["SQ", "respiratoryRate"]
+- ["SQ", "sexualActivity"]
+- !private ["SQ", "siemen"]
+- ["SQ", "sleepAnalysis"]
+- ["SQ", "stepCount"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unitDivided"]
+- !private ["SQ", "userInitiated"]
+- ["SQ", "uvExposure"]
+- ["SQ", "workoutType"]
+- !private ["s5ErrorP", "AuthorizationDenied"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "serviceIsNil"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So15HKBiologicalSexV", "rawValue"]
+- !private ["So11HKBloodTypeV", "rawValue"]
+- ["So24HKCategoryTypeIdentifiera", "appleStandHour"]
+- ["So24HKCategoryTypeIdentifiera", "cervicalMucusQuality"]
+- ["So24HKCategoryTypeIdentifiera", "intermenstrualBleeding"]
+- ["So24HKCategoryTypeIdentifiera", "menstrualFlow"]
+- ["So24HKCategoryTypeIdentifiera", "ovulationTestResult"]
+- ["So24HKCategoryTypeIdentifiera", "sexualActivity"]
+- ["So24HKCategoryTypeIdentifiera", "sleepAnalysis"]
+- ["So30HKCharacteristicTypeIdentifiera", "biologicalSex"]
+- ["So30HKCharacteristicTypeIdentifiera", "bloodType"]
+- ["So30HKCharacteristicTypeIdentifiera", "dateOfBirth"]
+- ["So30HKCharacteristicTypeIdentifiera", "fitzpatrickSkinType"]
+- !private ["So21HKFitzpatrickSkinTypeV", "rawValue"]
+- ["So12HKObjectTypeC", "activitySummaryType"]
+- ["So12HKObjectTypeC", "categoryType"]
+- ["So12HKObjectTypeC", "characteristicType"]
+- ["So12HKObjectTypeC", "quantityType"]
+- ["So12HKObjectTypeC", "workoutType"]
+- ["So24HKQuantityTypeIdentifiera", "activeEnergyBurned"]
+- ["So24HKQuantityTypeIdentifiera", "appleExerciseTime"]
+- ["So24HKQuantityTypeIdentifiera", "basalBodyTemperature"]
+- ["So24HKQuantityTypeIdentifiera", "basalEnergyBurned"]
+- ["So24HKQuantityTypeIdentifiera", "bloodAlcoholContent"]
+- ["So24HKQuantityTypeIdentifiera", "bloodGlucose"]
+- ["So24HKQuantityTypeIdentifiera", "bloodPressureDiastolic"]
+- ["So24HKQuantityTypeIdentifiera", "bloodPressureSystolic"]
+- ["So24HKQuantityTypeIdentifiera", "bodyFatPercentage"]
+- ["So24HKQuantityTypeIdentifiera", "bodyMass"]
+- ["So24HKQuantityTypeIdentifiera", "bodyMassIndex"]
+- ["So24HKQuantityTypeIdentifiera", "bodyTemperature"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryCaffeine"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryCalcium"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryCarbohydrates"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryChloride"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryCholesterol"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryChromium"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryCopper"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryEnergyConsumed"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFatMonounsaturated"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFatPolyunsaturated"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFatSaturated"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFatTotal"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFiber"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryFolate"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryIodine"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryIron"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryMagnesium"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryManganese"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryMolybdenum"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryNiacin"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryPantothenicAcid"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryPhosphorus"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryPotassium"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryProtein"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryRiboflavin"]
+- ["So24HKQuantityTypeIdentifiera", "dietarySelenium"]
+- ["So24HKQuantityTypeIdentifiera", "dietarySodium"]
+- ["So24HKQuantityTypeIdentifiera", "dietarySugar"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminA"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminB12"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminB6"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminC"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminD"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminE"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryVitaminK"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryWater"]
+- ["So24HKQuantityTypeIdentifiera", "dietaryZinc"]
+- ["So24HKQuantityTypeIdentifiera", "distanceCycling"]
+- ["So24HKQuantityTypeIdentifiera", "distanceSwimming"]
+- ["So24HKQuantityTypeIdentifiera", "distanceWalkingRunning"]
+- ["So24HKQuantityTypeIdentifiera", "distanceWheelchair"]
+- ["So24HKQuantityTypeIdentifiera", "electrodermalActivity"]
+- ["So24HKQuantityTypeIdentifiera", "flightsClimbed"]
+- ["So24HKQuantityTypeIdentifiera", "forcedExpiratoryVolume1"]
+- ["So24HKQuantityTypeIdentifiera", "forcedVitalCapacity"]
+- ["So24HKQuantityTypeIdentifiera", "heartRate"]
+- ["So24HKQuantityTypeIdentifiera", "height"]
+- ["So24HKQuantityTypeIdentifiera", "inhalerUsage"]
+- ["So24HKQuantityTypeIdentifiera", "leanBodyMass"]
+- ["So24HKQuantityTypeIdentifiera", "nikeFuel"]
+- ["So24HKQuantityTypeIdentifiera", "numberOfTimesFallen"]
+- ["So24HKQuantityTypeIdentifiera", "oxygenSaturation"]
+- ["So24HKQuantityTypeIdentifiera", "peakExpiratoryFlowRate"]
+- ["So24HKQuantityTypeIdentifiera", "respiratoryRate"]
+- ["So24HKQuantityTypeIdentifiera", "stepCount"]
+- ["So24HKQuantityTypeIdentifiera", "uvExposure"]
+- !private ["12HKDataExport12HKRepositoryP", "getActivities"]
+- !private ["12HKDataExport12HKRepositoryP", "getBirthDay"]
+- !private ["12HKDataExport12HKRepositoryP", "getBloodType"]
+- !private ["12HKDataExport12HKRepositoryP", "getCategorySamples"]
+- !private ["12HKDataExport12HKRepositoryP", "getQuantitySamples"]
+- !private ["12HKDataExport12HKRepositoryP", "getSex"]
+- !private ["12HKDataExport12HKRepositoryP", "getSkinType"]
+- !private ["12HKDataExport12HKRepositoryP", "getWorkoutSamples"]
+- ["12HKDataExport12HKRepositoryP", "init"]
+- !private ["12HKDataExport12HKRepositoryP", "requestAuthorization"]
+- ["12HKDataExport15HKRepositoryImpC", "deinit"]
+- ["12HKDataExport15HKRepositoryImpC", "init"]
+- ["12HKDataExport9HKServiceP", "Date"]
+- !private ["12HKDataExport9HKServiceP", "DispatchQueue"]
+- ["12HKDataExport9HKServiceP", "DispatchSemaphore"]
+- !private ["12HKDataExport9HKServiceP", "HKObjectType"]
+- ["12HKDataExport9HKServiceP", "HKRepositoryImp"]
+- !private ["12HKDataExport9HKServiceP", "HKServiceError"]
+- ["12HKDataExport9HKServiceP", "HKServiceImp"]
+- ["12HKDataExport9HKServiceP", "HKStorageImp"]
+- !private ["12HKDataExport9HKServiceP", "HKUnit"]
+- ["12HKDataExport9HKServiceP", "OperationQueue"]
+- !private ["12HKDataExport9HKServiceP", "String"]
+- ["12HKDataExport9HKServiceP", ""]
+- !private ["12HKDataExport9HKServiceP", "activeEnergyBurned"]
+- !private ["12HKDataExport9HKServiceP", "activity"]
+- !private ["12HKDataExport9HKServiceP", "alckohol"]
+- !private ["12HKDataExport9HKServiceP", "basalEnergyBurned"]
+- !private ["12HKDataExport9HKServiceP", "basalTemp"]
+- !private ["12HKDataExport9HKServiceP", "biologicalSex"]
+- !private ["12HKDataExport9HKServiceP", "bleedings"]
+- !private ["12HKDataExport9HKServiceP", "bloodType"]
+- !private ["12HKDataExport9HKServiceP", "bodyFatPercentage"]
+- !private ["12HKDataExport9HKServiceP", "bodyMass"]
+- !private ["12HKDataExport9HKServiceP", "bodyMassIndex"]
+- !private ["12HKDataExport9HKServiceP", "bodyTemperature"]
+- !private ["12HKDataExport9HKServiceP", "breathvolume"]
+- !private ["12HKDataExport9HKServiceP", "caffein"]
+- !private ["12HKDataExport9HKServiceP", "calcium"]
+- !private ["12HKDataExport9HKServiceP", "carbs"]
+- !private ["12HKDataExport9HKServiceP", "categoryTuples"]
+- !private ["12HKDataExport9HKServiceP", "cervical"]
+- !private ["12HKDataExport9HKServiceP", "checkFinishSync"]
+- !private ["12HKDataExport9HKServiceP", "checkProgress"]
+- !private ["12HKDataExport9HKServiceP", "chlororestertine"]
+- !private ["12HKDataExport9HKServiceP", "chrome"]
+- !private ["12HKDataExport9HKServiceP", "cloride"]
+- !private ["12HKDataExport9HKServiceP", "copper"]
+- !private ["12HKDataExport9HKServiceP", "dateOfBirth"]
+- !private ["12HKDataExport9HKServiceP", "distanceCycling"]
+- !private ["12HKDataExport9HKServiceP", "distanceSwimming"]
+- !private ["12HKDataExport9HKServiceP", "distanceWalk"]
+- !private ["12HKDataExport9HKServiceP", "distanceWheelchair"]
+- !private ["12HKDataExport9HKServiceP", "electroderma"]
+- !private ["12HKDataExport9HKServiceP", "energy"]
+- !private ["12HKDataExport9HKServiceP", "exersizeTime"]
+- !private ["12HKDataExport9HKServiceP", "falls"]
+- !private ["12HKDataExport9HKServiceP", "fatIn"]
+- !private ["12HKDataExport9HKServiceP", "fiber"]
+- !private ["12HKDataExport9HKServiceP", "flightsClimbed"]
+- !private ["12HKDataExport9HKServiceP", "folat"]
+- !private ["12HKDataExport9HKServiceP", "forcevitak"]
+- !private ["12HKDataExport9HKServiceP", "getCategorySamples"]
+- ["12HKDataExport9HKServiceP", "getCountForTypes"]
+- ["12HKDataExport9HKServiceP", "getCountType"]
+- !private ["12HKDataExport9HKServiceP", "getQuantitySamples"]
+- !private ["12HKDataExport9HKServiceP", "getReadTypes"]
+- ["12HKDataExport9HKServiceP", "getSamplesForType"]
+- ["12HKDataExport9HKServiceP", "getUserData"]
+- !private ["12HKDataExport9HKServiceP", "getWriteTypes"]
+- !private ["12HKDataExport9HKServiceP", "glucose"]
+- !private ["12HKDataExport9HKServiceP", "heartRate"]
+- !private ["12HKDataExport9HKServiceP", "height"]
+- !private ["12HKDataExport9HKServiceP", "inhalerUse"]
+- ["12HKDataExport9HKServiceP", "init"]
+- !private ["12HKDataExport9HKServiceP", "iodine"]
+- !private ["12HKDataExport9HKServiceP", "iron"]
+- !private ["12HKDataExport9HKServiceP", "leanBodyMass"]
+- !private ["12HKDataExport9HKServiceP", "magnesium"]
+- !private ["12HKDataExport9HKServiceP", "manganese"]
+- !private ["12HKDataExport9HKServiceP", "menstrual"]
+- !private ["12HKDataExport9HKServiceP", "molibdenum"]
+- !private ["12HKDataExport9HKServiceP", "monofats"]
+- !private ["12HKDataExport9HKServiceP", "nikotin"]
+- !private ["12HKDataExport9HKServiceP", "ouvalation"]
+- !private ["12HKDataExport9HKServiceP", "oxygen"]
+- !private ["12HKDataExport9HKServiceP", "pantocid"]
+- !private ["12HKDataExport9HKServiceP", "peripheralP"]
+- !private ["12HKDataExport9HKServiceP", "phoshor"]
+- !private ["12HKDataExport9HKServiceP", "polifat"]
+- !private ["12HKDataExport9HKServiceP", "potassium"]
+- !private ["12HKDataExport9HKServiceP", "progressV"]
+- !private ["12HKDataExport9HKServiceP", "protein"]
+- !private ["12HKDataExport9HKServiceP", "quantityTuples"]
+- !private ["12HKDataExport9HKServiceP", "queue"]
+- !private ["12HKDataExport9HKServiceP", "repository"]
+- ["12HKDataExport9HKServiceP", "requestAuthorization"]
+- !private ["12HKDataExport9HKServiceP", "respiratoryRate"]
+- !private ["12HKDataExport9HKServiceP", "riboflavin"]
+- !private ["12HKDataExport9HKServiceP", "saturatedfats"]
+- !private ["12HKDataExport9HKServiceP", "selenium"]
+- !private ["12HKDataExport9HKServiceP", "sexactive"]
+- !private ["12HKDataExport9HKServiceP", "skinType"]
+- !private ["12HKDataExport9HKServiceP", "sleep"]
+- !private ["12HKDataExport9HKServiceP", "sodium"]
+- !private ["12HKDataExport9HKServiceP", "standHour"]
+- ["12HKDataExport9HKServiceP", "startSynchronization"]
+- !private ["12HKDataExport9HKServiceP", "stepCount"]
+- !private ["12HKDataExport9HKServiceP", "storage"]
+- !private ["12HKDataExport9HKServiceP", "sugar"]
+- !private ["12HKDataExport9HKServiceP", "ufIndecs"]
+- !private ["12HKDataExport9HKServiceP", "userDate"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsA"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsB12"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsB6"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsC"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsD"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsE"]
+- !private ["12HKDataExport9HKServiceP", "vitaminsK"]
+- !private ["12HKDataExport9HKServiceP", "water"]
+- !private ["12HKDataExport9HKServiceP", "workout"]
+- !private ["12HKDataExport9HKServiceP", "zinc"]
+- ["12HKDataExport14HKServiceErrorO", "AuthorizationDenied"]
+- ["12HKDataExport14HKServiceErrorO", "String"]
+- ["12HKDataExport14HKServiceErrorO", "_code"]
+- ["12HKDataExport14HKServiceErrorO", "_domain"]
+- ["12HKDataExport14HKServiceErrorO", "_getEmbeddedNSError"]
+- ["12HKDataExport14HKServiceErrorO", "_userInfo"]
+- ["12HKDataExport14HKServiceErrorO", "deinit"]
+- ["12HKDataExport14HKServiceErrorO", "serviceIsNil"]
+- ["12HKDataExport12HKServiceImpC", "Bool"]
+- ["12HKDataExport12HKServiceImpC", "Date"]
+- !private ["12HKDataExport12HKServiceImpC", "DispatchQueue"]
+- ["12HKDataExport12HKServiceImpC", "DispatchSemaphore"]
+- ["12HKDataExport12HKServiceImpC", "Error"]
+- ["12HKDataExport12HKServiceImpC", "Float"]
+- !private ["12HKDataExport12HKServiceImpC", "HKActivitySummaryType"]
+- ["12HKDataExport12HKServiceImpC", "HKCategoryType"]
+- ["12HKDataExport12HKServiceImpC", "HKObjectType"]
+- ["12HKDataExport12HKServiceImpC", "HKQuantityType"]
+- ["12HKDataExport12HKServiceImpC", "HKQueryAnchor"]
+- ["12HKDataExport12HKServiceImpC", "HKRepository"]
+- ["12HKDataExport12HKServiceImpC", "HKRepositoryImp"]
+- ["12HKDataExport12HKServiceImpC", "HKSampleType"]
+- !private ["12HKDataExport12HKServiceImpC", "HKServiceError"]
+- ["12HKDataExport12HKServiceImpC", "HKServiceImp"]
+- ["12HKDataExport12HKServiceImpC", "HKStorage"]
+- ["12HKDataExport12HKServiceImpC", "HKStorageImp"]
+- ["12HKDataExport12HKServiceImpC", "HKUnit"]
+- !private ["12HKDataExport12HKServiceImpC", "HKWorkoutType"]
+- ["12HKDataExport12HKServiceImpC", "Int"]
+- ["12HKDataExport12HKServiceImpC", "OperationQueue"]
+- ["12HKDataExport12HKServiceImpC", "Set"]
+- ["12HKDataExport12HKServiceImpC", "String"]
+- ["12HKDataExport12HKServiceImpC", "Swift"]
+- !private ["12HKDataExport12HKServiceImpC", "activeEnergyBurned"]
+- !private ["12HKDataExport12HKServiceImpC", "activity"]
+- !private ["12HKDataExport12HKServiceImpC", "alckohol"]
+- !private ["12HKDataExport12HKServiceImpC", "basalEnergyBurned"]
+- !private ["12HKDataExport12HKServiceImpC", "basalTemp"]
+- !private ["12HKDataExport12HKServiceImpC", "biologicalSex"]
+- !private ["12HKDataExport12HKServiceImpC", "bleedings"]
+- !private ["12HKDataExport12HKServiceImpC", "bloodType"]
+- !private ["12HKDataExport12HKServiceImpC", "bodyFatPercentage"]
+- !private ["12HKDataExport12HKServiceImpC", "bodyMass"]
+- !private ["12HKDataExport12HKServiceImpC", "bodyMassIndex"]
+- !private ["12HKDataExport12HKServiceImpC", "bodyTemperature"]
+- !private ["12HKDataExport12HKServiceImpC", "breathvolume"]
+- !private ["12HKDataExport12HKServiceImpC", "caffein"]
+- !private ["12HKDataExport12HKServiceImpC", "calcium"]
+- !private ["12HKDataExport12HKServiceImpC", "carbs"]
+- ["12HKDataExport12HKServiceImpC", "categoryTuples"]
+- !private ["12HKDataExport12HKServiceImpC", "cervical"]
+- !private ["12HKDataExport12HKServiceImpC", "checkFinishSync"]
+- !private ["12HKDataExport12HKServiceImpC", "checkProgress"]
+- !private ["12HKDataExport12HKServiceImpC", "chlororestertine"]
+- !private ["12HKDataExport12HKServiceImpC", "chrome"]
+- !private ["12HKDataExport12HKServiceImpC", "cloride"]
+- !private ["12HKDataExport12HKServiceImpC", "copper"]
+- !private ["12HKDataExport12HKServiceImpC", "dateOfBirth"]
+- ["12HKDataExport12HKServiceImpC", "deinit"]
+- !private ["12HKDataExport12HKServiceImpC", "distanceCycling"]
+- !private ["12HKDataExport12HKServiceImpC", "distanceSwimming"]
+- !private ["12HKDataExport12HKServiceImpC", "distanceWalk"]
+- !private ["12HKDataExport12HKServiceImpC", "distanceWheelchair"]
+- !private ["12HKDataExport12HKServiceImpC", "electroderma"]
+- !private ["12HKDataExport12HKServiceImpC", "energy"]
+- !private ["12HKDataExport12HKServiceImpC", "exersizeTime"]
+- !private ["12HKDataExport12HKServiceImpC", "falls"]
+- !private ["12HKDataExport12HKServiceImpC", "fatIn"]
+- !private ["12HKDataExport12HKServiceImpC", "fiber"]
+- !private ["12HKDataExport12HKServiceImpC", "flightsClimbed"]
+- !private ["12HKDataExport12HKServiceImpC", "folat"]
+- !private ["12HKDataExport12HKServiceImpC", "forcevitak"]
+- !private ["12HKDataExport12HKServiceImpC", "getAnchor"]
+- !private ["12HKDataExport12HKServiceImpC", "getCategorySamples"]
+- ["12HKDataExport12HKServiceImpC", "getCountForTypes"]
+- ["12HKDataExport12HKServiceImpC", "getCountType"]
+- !private ["12HKDataExport12HKServiceImpC", "getQuantitySamples"]
+- !private ["12HKDataExport12HKServiceImpC", "getReadTypes"]
+- ["12HKDataExport12HKServiceImpC", "getSamplesForType"]
+- ["12HKDataExport12HKServiceImpC", "getUserData"]
+- !private ["12HKDataExport12HKServiceImpC", "getWriteTypes"]
+- !private ["12HKDataExport12HKServiceImpC", "glucose"]
+- !private ["12HKDataExport12HKServiceImpC", "heartRate"]
+- !private ["12HKDataExport12HKServiceImpC", "height"]
+- !private ["12HKDataExport12HKServiceImpC", "inhalerUse"]
+- ["12HKDataExport12HKServiceImpC", "init"]
+- !private ["12HKDataExport12HKServiceImpC", "iodine"]
+- !private ["12HKDataExport12HKServiceImpC", "iron"]
+- !private ["12HKDataExport12HKServiceImpC", "leanBodyMass"]
+- !private ["12HKDataExport12HKServiceImpC", "magnesium"]
+- !private ["12HKDataExport12HKServiceImpC", "manganese"]
+- !private ["12HKDataExport12HKServiceImpC", "menstrual"]
+- !private ["12HKDataExport12HKServiceImpC", "molibdenum"]
+- !private ["12HKDataExport12HKServiceImpC", "monofats"]
+- !private ["12HKDataExport12HKServiceImpC", "nikotin"]
+- !private ["12HKDataExport12HKServiceImpC", "ouvalation"]
+- !private ["12HKDataExport12HKServiceImpC", "oxygen"]
+- !private ["12HKDataExport12HKServiceImpC", "pantocid"]
+- !private ["12HKDataExport12HKServiceImpC", "peripheralP"]
+- !private ["12HKDataExport12HKServiceImpC", "phoshor"]
+- !private ["12HKDataExport12HKServiceImpC", "polifat"]
+- !private ["12HKDataExport12HKServiceImpC", "potassium"]
+- ["12HKDataExport12HKServiceImpC", "progressV"]
+- !private ["12HKDataExport12HKServiceImpC", "protein"]
+- ["12HKDataExport12HKServiceImpC", "quantityTuples"]
+- ["12HKDataExport12HKServiceImpC", "queue"]
+- ["12HKDataExport12HKServiceImpC", "repository"]
+- ["12HKDataExport12HKServiceImpC", "requestAuthorization"]
+- !private ["12HKDataExport12HKServiceImpC", "respiratoryRate"]
+- !private ["12HKDataExport12HKServiceImpC", "riboflavin"]
+- !private ["12HKDataExport12HKServiceImpC", "saturatedfats"]
+- !private ["12HKDataExport12HKServiceImpC", "saveAnchor"]
+- !private ["12HKDataExport12HKServiceImpC", "selenium"]
+- ["12HKDataExport12HKServiceImpC", "semaphore"]
+- !private ["12HKDataExport12HKServiceImpC", "sexactive"]
+- ["12HKDataExport12HKServiceImpC", "shared"]
+- !private ["12HKDataExport12HKServiceImpC", "skinType"]
+- !private ["12HKDataExport12HKServiceImpC", "sleep"]
+- !private ["12HKDataExport12HKServiceImpC", "sodium"]
+- !private ["12HKDataExport12HKServiceImpC", "standHour"]
+- ["12HKDataExport12HKServiceImpC", "startSynchronization"]
+- !private ["12HKDataExport12HKServiceImpC", "stepCount"]
+- ["12HKDataExport12HKServiceImpC", "storage"]
+- !private ["12HKDataExport12HKServiceImpC", "sugar"]
+- !private ["12HKDataExport12HKServiceImpC", "ufIndecs"]
+- ["12HKDataExport12HKServiceImpC", "userDate"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsA"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsB12"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsB6"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsC"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsD"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsE"]
+- !private ["12HKDataExport12HKServiceImpC", "vitaminsK"]
+- !private ["12HKDataExport12HKServiceImpC", "water"]
+- !private ["12HKDataExport12HKServiceImpC", "workout"]
+- !private ["12HKDataExport12HKServiceImpC", "zinc"]
+- !private ["12HKDataExport9HKStorageP", "getActivityDate"]
+- !private ["12HKDataExport9HKStorageP", "getActivitySamples"]
+- !private ["12HKDataExport9HKStorageP", "getAnchor"]
+- !private ["12HKDataExport9HKStorageP", "getCategorySamples"]
+- !private ["12HKDataExport9HKStorageP", "getCharacteristicSamples"]
+- !private ["12HKDataExport9HKStorageP", "getCountForCharacteristicType"]
+- !private ["12HKDataExport9HKStorageP", "getCountForQuantityType"]
+- !private ["12HKDataExport9HKStorageP", "getCountForWorkoutType"]
+- !private ["12HKDataExport9HKStorageP", "getCountforActivityType"]
+- !private ["12HKDataExport9HKStorageP", "getQuantitySamples"]
+- !private ["12HKDataExport9HKStorageP", "getWorkoutDate"]
+- !private ["12HKDataExport9HKStorageP", "getWorkoutSamples"]
+- ["12HKDataExport9HKStorageP", "init"]
+- !private ["12HKDataExport9HKStorageP", "saveActivityDate"]
+- !private ["12HKDataExport9HKStorageP", "saveActivitySamples"]
+- !private ["12HKDataExport9HKStorageP", "saveAnchor"]
+- !private ["12HKDataExport9HKStorageP", "saveCategorySamples"]
+- !private ["12HKDataExport9HKStorageP", "saveCharacteristicSample"]
+- !private ["12HKDataExport9HKStorageP", "saveQuantitySamples"]
+- !private ["12HKDataExport9HKStorageP", "saveWorkoutDate"]
+- !private ["12HKDataExport9HKStorageP", "saveWorkoutSamples"]
+- ["12HKDataExport12HKStorageImpC", "deinit"]
+- ["12HKDataExport12HKStorageImpC", "init"]
+- !private ["So6HKUnitC", "count"]
+- !private ["So6HKUnitC", "degreeCelsius"]
+- !private ["So6HKUnitC", "gram"]
+- !private ["So6HKUnitC", "kilocalorie"]
+- !private ["So6HKUnitC", "liter"]
+- !private ["So6HKUnitC", "meter"]
+- !private ["So6HKUnitC", "minute"]
+- !private ["So6HKUnitC", "percent"]
+- !private ["So6HKUnitC", "siemen"]
+- !private ["So6HKUnitC", "unitDivided"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "activeEnergyBurned"]
+- ["SH", "activitySummaryType"]
+- !private ["SH", "addOperation"]
+- ["SH", "appleExerciseTime"]
+- ["SH", "appleStandHour"]
+- !private ["SH", "async"]
+- ["SH", "basalBodyTemperature"]
+- ["SH", "basalEnergyBurned"]
+- ["SH", "biologicalSex"]
+- ["SH", "bloodAlcoholContent"]
+- ["SH", "bloodGlucose"]
+- ["SH", "bloodPressureDiastolic"]
+- ["SH", "bloodPressureSystolic"]
+- ["SH", "bloodType"]
+- ["SH", "bodyFatPercentage"]
+- ["SH", "bodyMass"]
+- ["SH", "bodyMassIndex"]
+- ["SH", "bodyTemperature"]
+- ["SH", "categoryType"]
+- ["SH", "cervicalMucusQuality"]
+- ["SH", "characteristicType"]
+- !private ["SH", "count"]
+- ["SH", "dateOfBirth"]
+- !private ["SH", "degreeCelsius"]
+- ["SH", "dietaryCaffeine"]
+- ["SH", "dietaryCalcium"]
+- ["SH", "dietaryCarbohydrates"]
+- ["SH", "dietaryChloride"]
+- ["SH", "dietaryCholesterol"]
+- ["SH", "dietaryChromium"]
+- ["SH", "dietaryCopper"]
+- ["SH", "dietaryEnergyConsumed"]
+- ["SH", "dietaryFatMonounsaturated"]
+- ["SH", "dietaryFatPolyunsaturated"]
+- ["SH", "dietaryFatSaturated"]
+- ["SH", "dietaryFatTotal"]
+- ["SH", "dietaryFiber"]
+- ["SH", "dietaryFolate"]
+- ["SH", "dietaryIodine"]
+- ["SH", "dietaryIron"]
+- ["SH", "dietaryMagnesium"]
+- ["SH", "dietaryManganese"]
+- ["SH", "dietaryMolybdenum"]
+- ["SH", "dietaryNiacin"]
+- ["SH", "dietaryPantothenicAcid"]
+- ["SH", "dietaryPhosphorus"]
+- ["SH", "dietaryPotassium"]
+- ["SH", "dietaryProtein"]
+- ["SH", "dietaryRiboflavin"]
+- ["SH", "dietarySelenium"]
+- ["SH", "dietarySodium"]
+- ["SH", "dietarySugar"]
+- ["SH", "dietaryVitaminA"]
+- ["SH", "dietaryVitaminB12"]
+- ["SH", "dietaryVitaminB6"]
+- ["SH", "dietaryVitaminC"]
+- ["SH", "dietaryVitaminD"]
+- ["SH", "dietaryVitaminE"]
+- ["SH", "dietaryVitaminK"]
+- ["SH", "dietaryWater"]
+- ["SH", "dietaryZinc"]
+- ["SH", "distanceCycling"]
+- ["SH", "distanceSwimming"]
+- ["SH", "distanceWalkingRunning"]
+- ["SH", "distanceWheelchair"]
+- ["SH", "electrodermalActivity"]
+- ["SH", "fitzpatrickSkinType"]
+- ["SH", "flightsClimbed"]
+- ["SH", "forcedExpiratoryVolume1"]
+- ["SH", "forcedVitalCapacity"]
+- !private ["SH", "global"]
+- !private ["SH", "gram"]
+- ["SH", "heartRate"]
+- ["SH", "height"]
+- ["SH", "inhalerUsage"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intermenstrualBleeding"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "kilocalorie"]
+- ["SH", "leanBodyMass"]
+- !private ["SH", "liter"]
+- !private ["SH", "map"]
+- !private ["SH", "maxConcurrentOperationCount"]
+- ["SH", "menstrualFlow"]
+- !private ["SH", "meter"]
+- !private ["SH", "minute"]
+- ["SH", "nikeFuel"]
+- ["SH", "numberOfTimesFallen"]
+- ["SH", "ovulationTestResult"]
+- ["SH", "oxygenSaturation"]
+- ["SH", "peakExpiratoryFlowRate"]
+- !private ["SH", "percent"]
+- ["SH", "quantityType"]
+- !private ["SH", "rawValue"]
+- ["SH", "respiratoryRate"]
+- ["SH", "sexualActivity"]
+- !private ["SH", "siemen"]
+- ["SH", "sleepAnalysis"]
+- ["SH", "stepCount"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unitDivided"]
+- !private ["SH", "userInitiated"]
+- ["SH", "uvExposure"]
+- ["SH", "workoutType"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- ["So8NSCodingP", "activitySummaryType"]
+- ["So8NSCodingP", "categoryType"]
+- ["So8NSCodingP", "characteristicType"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "degreeCelsius"]
+- !private ["So8NSCodingP", "gram"]
+- !private ["So8NSCodingP", "kilocalorie"]
+- !private ["So8NSCodingP", "liter"]
+- !private ["So8NSCodingP", "meter"]
+- !private ["So8NSCodingP", "minute"]
+- !private ["So8NSCodingP", "percent"]
+- ["So8NSCodingP", "quantityType"]
+- !private ["So8NSCodingP", "siemen"]
+- !private ["So8NSCodingP", "unitDivided"]
+- ["So8NSCodingP", "workoutType"]
+- ["So9NSCopyingP", "activitySummaryType"]
+- ["So9NSCopyingP", "categoryType"]
+- ["So9NSCopyingP", "characteristicType"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "degreeCelsius"]
+- !private ["So9NSCopyingP", "gram"]
+- !private ["So9NSCopyingP", "kilocalorie"]
+- !private ["So9NSCopyingP", "liter"]
+- !private ["So9NSCopyingP", "meter"]
+- !private ["So9NSCopyingP", "minute"]
+- !private ["So9NSCopyingP", "percent"]
+- ["So9NSCopyingP", "quantityType"]
+- !private ["So9NSCopyingP", "siemen"]
+- !private ["So9NSCopyingP", "unitDivided"]
+- ["So9NSCopyingP", "workoutType"]
+- ["So8NSObjectC", "activitySummaryType"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "categoryType"]
+- ["So8NSObjectC", "characteristicType"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "degreeCelsius"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "gram"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kilocalorie"]
+- !private ["So8NSObjectC", "liter"]
+- !private ["So8NSObjectC", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectC", "meter"]
+- !private ["So8NSObjectC", "minute"]
+- !private ["So8NSObjectC", "percent"]
+- ["So8NSObjectC", "quantityType"]
+- !private ["So8NSObjectC", "siemen"]
+- !private ["So8NSObjectC", "unitDivided"]
+- ["So8NSObjectC", "workoutType"]
+- ["So8NSObjectP", "activitySummaryType"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "async"]
+- ["So8NSObjectP", "categoryType"]
+- ["So8NSObjectP", "characteristicType"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "degreeCelsius"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "gram"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kilocalorie"]
+- !private ["So8NSObjectP", "liter"]
+- !private ["So8NSObjectP", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectP", "meter"]
+- !private ["So8NSObjectP", "minute"]
+- !private ["So8NSObjectP", "percent"]
+- ["So8NSObjectP", "quantityType"]
+- !private ["So8NSObjectP", "siemen"]
+- !private ["So8NSObjectP", "unitDivided"]
+- ["So8NSObjectP", "workoutType"]
+- ["So14NSSecureCodingP", "activitySummaryType"]
+- ["So14NSSecureCodingP", "categoryType"]
+- ["So14NSSecureCodingP", "characteristicType"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "degreeCelsius"]
+- !private ["So14NSSecureCodingP", "gram"]
+- !private ["So14NSSecureCodingP", "kilocalorie"]
+- !private ["So14NSSecureCodingP", "liter"]
+- !private ["So14NSSecureCodingP", "meter"]
+- !private ["So14NSSecureCodingP", "minute"]
+- !private ["So14NSSecureCodingP", "percent"]
+- ["So14NSSecureCodingP", "quantityType"]
+- !private ["So14NSSecureCodingP", "siemen"]
+- !private ["So14NSSecureCodingP", "unitDivided"]
+- ["So14NSSecureCodingP", "workoutType"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "init"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- ["So16NSOperationQueueC", "init"]
+- ["So16NSOperationQueueC", "init"]
+- !private ["So16NSOperationQueueC", "maxConcurrentOperationCount"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "userInitiated"]
+- !private ["Sk", "count"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- ["SY", "activeEnergyBurned"]
+- ["SY", "appleExerciseTime"]
+- ["SY", "appleStandHour"]
+- ["SY", "basalBodyTemperature"]
+- ["SY", "basalEnergyBurned"]
+- ["SY", "biologicalSex"]
+- ["SY", "bloodAlcoholContent"]
+- ["SY", "bloodGlucose"]
+- ["SY", "bloodPressureDiastolic"]
+- ["SY", "bloodPressureSystolic"]
+- ["SY", "bloodType"]
+- ["SY", "bodyFatPercentage"]
+- ["SY", "bodyMass"]
+- ["SY", "bodyMassIndex"]
+- ["SY", "bodyTemperature"]
+- ["SY", "cervicalMucusQuality"]
+- ["SY", "dateOfBirth"]
+- ["SY", "dietaryCaffeine"]
+- ["SY", "dietaryCalcium"]
+- ["SY", "dietaryCarbohydrates"]
+- ["SY", "dietaryChloride"]
+- ["SY", "dietaryCholesterol"]
+- ["SY", "dietaryChromium"]
+- ["SY", "dietaryCopper"]
+- ["SY", "dietaryEnergyConsumed"]
+- ["SY", "dietaryFatMonounsaturated"]
+- ["SY", "dietaryFatPolyunsaturated"]
+- ["SY", "dietaryFatSaturated"]
+- ["SY", "dietaryFatTotal"]
+- ["SY", "dietaryFiber"]
+- ["SY", "dietaryFolate"]
+- ["SY", "dietaryIodine"]
+- ["SY", "dietaryIron"]
+- ["SY", "dietaryMagnesium"]
+- ["SY", "dietaryManganese"]
+- ["SY", "dietaryMolybdenum"]
+- ["SY", "dietaryNiacin"]
+- ["SY", "dietaryPantothenicAcid"]
+- ["SY", "dietaryPhosphorus"]
+- ["SY", "dietaryPotassium"]
+- ["SY", "dietaryProtein"]
+- ["SY", "dietaryRiboflavin"]
+- ["SY", "dietarySelenium"]
+- ["SY", "dietarySodium"]
+- ["SY", "dietarySugar"]
+- ["SY", "dietaryVitaminA"]
+- ["SY", "dietaryVitaminB12"]
+- ["SY", "dietaryVitaminB6"]
+- ["SY", "dietaryVitaminC"]
+- ["SY", "dietaryVitaminD"]
+- ["SY", "dietaryVitaminE"]
+- ["SY", "dietaryVitaminK"]
+- ["SY", "dietaryWater"]
+- ["SY", "dietaryZinc"]
+- ["SY", "distanceCycling"]
+- ["SY", "distanceSwimming"]
+- ["SY", "distanceWalkingRunning"]
+- ["SY", "distanceWheelchair"]
+- ["SY", "electrodermalActivity"]
+- ["SY", "fitzpatrickSkinType"]
+- ["SY", "flightsClimbed"]
+- ["SY", "forcedExpiratoryVolume1"]
+- ["SY", "forcedVitalCapacity"]
+- ["SY", "heartRate"]
+- ["SY", "height"]
+- ["SY", "inhalerUsage"]
+- ["SY", "intermenstrualBleeding"]
+- ["SY", "leanBodyMass"]
+- ["SY", "menstrualFlow"]
+- ["SY", "nikeFuel"]
+- ["SY", "numberOfTimesFallen"]
+- ["SY", "ovulationTestResult"]
+- ["SY", "oxygenSaturation"]
+- ["SY", "peakExpiratoryFlowRate"]
+- !private ["SY", "rawValue"]
+- ["SY", "respiratoryRate"]
+- ["SY", "sexualActivity"]
+- ["SY", "sleepAnalysis"]
+- ["SY", "stepCount"]
+- ["SY", "uvExposure"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "activeEnergyBurned"]
+- ["s35_HasCustomAnyHashableRepresentationP", "appleExerciseTime"]
+- ["s35_HasCustomAnyHashableRepresentationP", "appleStandHour"]
+- ["s35_HasCustomAnyHashableRepresentationP", "basalBodyTemperature"]
+- ["s35_HasCustomAnyHashableRepresentationP", "basalEnergyBurned"]
+- ["s35_HasCustomAnyHashableRepresentationP", "biologicalSex"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bloodAlcoholContent"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bloodGlucose"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bloodPressureDiastolic"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bloodPressureSystolic"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bloodType"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bodyFatPercentage"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bodyMass"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bodyMassIndex"]
+- ["s35_HasCustomAnyHashableRepresentationP", "bodyTemperature"]
+- ["s35_HasCustomAnyHashableRepresentationP", "cervicalMucusQuality"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dateOfBirth"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryCaffeine"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryCalcium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryCarbohydrates"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryChloride"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryCholesterol"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryChromium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryCopper"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryEnergyConsumed"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFatMonounsaturated"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFatPolyunsaturated"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFatSaturated"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFatTotal"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFiber"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryFolate"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryIodine"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryIron"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryMagnesium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryManganese"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryMolybdenum"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryNiacin"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryPantothenicAcid"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryPhosphorus"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryPotassium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryProtein"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryRiboflavin"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietarySelenium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietarySodium"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietarySugar"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminA"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminB12"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminB6"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminC"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminD"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminE"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryVitaminK"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryWater"]
+- ["s35_HasCustomAnyHashableRepresentationP", "dietaryZinc"]
+- ["s35_HasCustomAnyHashableRepresentationP", "distanceCycling"]
+- ["s35_HasCustomAnyHashableRepresentationP", "distanceSwimming"]
+- ["s35_HasCustomAnyHashableRepresentationP", "distanceWalkingRunning"]
+- ["s35_HasCustomAnyHashableRepresentationP", "distanceWheelchair"]
+- ["s35_HasCustomAnyHashableRepresentationP", "electrodermalActivity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "fitzpatrickSkinType"]
+- ["s35_HasCustomAnyHashableRepresentationP", "flightsClimbed"]
+- ["s35_HasCustomAnyHashableRepresentationP", "forcedExpiratoryVolume1"]
+- ["s35_HasCustomAnyHashableRepresentationP", "forcedVitalCapacity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "heartRate"]
+- ["s35_HasCustomAnyHashableRepresentationP", "height"]
+- ["s35_HasCustomAnyHashableRepresentationP", "inhalerUsage"]
+- ["s35_HasCustomAnyHashableRepresentationP", "intermenstrualBleeding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- ["s35_HasCustomAnyHashableRepresentationP", "leanBodyMass"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "menstrualFlow"]
+- ["s35_HasCustomAnyHashableRepresentationP", "nikeFuel"]
+- ["s35_HasCustomAnyHashableRepresentationP", "numberOfTimesFallen"]
+- ["s35_HasCustomAnyHashableRepresentationP", "ovulationTestResult"]
+- ["s35_HasCustomAnyHashableRepresentationP", "oxygenSaturation"]
+- ["s35_HasCustomAnyHashableRepresentationP", "peakExpiratoryFlowRate"]
+- ["s35_HasCustomAnyHashableRepresentationP", "respiratoryRate"]
+- ["s35_HasCustomAnyHashableRepresentationP", "sexualActivity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "sleepAnalysis"]
+- ["s35_HasCustomAnyHashableRepresentationP", "stepCount"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "uvExposure"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "activitySummaryType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "categoryType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "characteristicType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "degreeCelsius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "gram"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kilocalorie"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "liter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "meter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "percent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "quantityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "siemen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unitDivided"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "workoutType"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "activeEnergyBurned"]
+- ["s21_ObjectiveCBridgeableP", "appleExerciseTime"]
+- ["s21_ObjectiveCBridgeableP", "appleStandHour"]
+- ["s21_ObjectiveCBridgeableP", "basalBodyTemperature"]
+- ["s21_ObjectiveCBridgeableP", "basalEnergyBurned"]
+- ["s21_ObjectiveCBridgeableP", "biologicalSex"]
+- ["s21_ObjectiveCBridgeableP", "bloodAlcoholContent"]
+- ["s21_ObjectiveCBridgeableP", "bloodGlucose"]
+- ["s21_ObjectiveCBridgeableP", "bloodPressureDiastolic"]
+- ["s21_ObjectiveCBridgeableP", "bloodPressureSystolic"]
+- ["s21_ObjectiveCBridgeableP", "bloodType"]
+- ["s21_ObjectiveCBridgeableP", "bodyFatPercentage"]
+- ["s21_ObjectiveCBridgeableP", "bodyMass"]
+- ["s21_ObjectiveCBridgeableP", "bodyMassIndex"]
+- ["s21_ObjectiveCBridgeableP", "bodyTemperature"]
+- ["s21_ObjectiveCBridgeableP", "cervicalMucusQuality"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "dateOfBirth"]
+- ["s21_ObjectiveCBridgeableP", "dietaryCaffeine"]
+- ["s21_ObjectiveCBridgeableP", "dietaryCalcium"]
+- ["s21_ObjectiveCBridgeableP", "dietaryCarbohydrates"]
+- ["s21_ObjectiveCBridgeableP", "dietaryChloride"]
+- ["s21_ObjectiveCBridgeableP", "dietaryCholesterol"]
+- ["s21_ObjectiveCBridgeableP", "dietaryChromium"]
+- ["s21_ObjectiveCBridgeableP", "dietaryCopper"]
+- ["s21_ObjectiveCBridgeableP", "dietaryEnergyConsumed"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFatMonounsaturated"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFatPolyunsaturated"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFatSaturated"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFatTotal"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFiber"]
+- ["s21_ObjectiveCBridgeableP", "dietaryFolate"]
+- ["s21_ObjectiveCBridgeableP", "dietaryIodine"]
+- ["s21_ObjectiveCBridgeableP", "dietaryIron"]
+- ["s21_ObjectiveCBridgeableP", "dietaryMagnesium"]
+- ["s21_ObjectiveCBridgeableP", "dietaryManganese"]
+- ["s21_ObjectiveCBridgeableP", "dietaryMolybdenum"]
+- ["s21_ObjectiveCBridgeableP", "dietaryNiacin"]
+- ["s21_ObjectiveCBridgeableP", "dietaryPantothenicAcid"]
+- ["s21_ObjectiveCBridgeableP", "dietaryPhosphorus"]
+- ["s21_ObjectiveCBridgeableP", "dietaryPotassium"]
+- ["s21_ObjectiveCBridgeableP", "dietaryProtein"]
+- ["s21_ObjectiveCBridgeableP", "dietaryRiboflavin"]
+- ["s21_ObjectiveCBridgeableP", "dietarySelenium"]
+- ["s21_ObjectiveCBridgeableP", "dietarySodium"]
+- ["s21_ObjectiveCBridgeableP", "dietarySugar"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminA"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminB12"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminB6"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminC"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminD"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminE"]
+- ["s21_ObjectiveCBridgeableP", "dietaryVitaminK"]
+- ["s21_ObjectiveCBridgeableP", "dietaryWater"]
+- ["s21_ObjectiveCBridgeableP", "dietaryZinc"]
+- ["s21_ObjectiveCBridgeableP", "distanceCycling"]
+- ["s21_ObjectiveCBridgeableP", "distanceSwimming"]
+- ["s21_ObjectiveCBridgeableP", "distanceWalkingRunning"]
+- ["s21_ObjectiveCBridgeableP", "distanceWheelchair"]
+- ["s21_ObjectiveCBridgeableP", "electrodermalActivity"]
+- ["s21_ObjectiveCBridgeableP", "fitzpatrickSkinType"]
+- ["s21_ObjectiveCBridgeableP", "flightsClimbed"]
+- ["s21_ObjectiveCBridgeableP", "forcedExpiratoryVolume1"]
+- ["s21_ObjectiveCBridgeableP", "forcedVitalCapacity"]
+- ["s21_ObjectiveCBridgeableP", "heartRate"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "inhalerUsage"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "intermenstrualBleeding"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- ["s21_ObjectiveCBridgeableP", "leanBodyMass"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "menstrualFlow"]
+- ["s21_ObjectiveCBridgeableP", "nikeFuel"]
+- ["s21_ObjectiveCBridgeableP", "numberOfTimesFallen"]
+- ["s21_ObjectiveCBridgeableP", "ovulationTestResult"]
+- ["s21_ObjectiveCBridgeableP", "oxygenSaturation"]
+- ["s21_ObjectiveCBridgeableP", "peakExpiratoryFlowRate"]
+- ["s21_ObjectiveCBridgeableP", "respiratoryRate"]
+- ["s21_ObjectiveCBridgeableP", "sexualActivity"]
+- ["s21_ObjectiveCBridgeableP", "sleepAnalysis"]
+- ["s21_ObjectiveCBridgeableP", "stepCount"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "uvExposure"]
+- ["s20_SwiftNewtypeWrapperP", "activeEnergyBurned"]
+- ["s20_SwiftNewtypeWrapperP", "appleExerciseTime"]
+- ["s20_SwiftNewtypeWrapperP", "appleStandHour"]
+- ["s20_SwiftNewtypeWrapperP", "basalBodyTemperature"]
+- ["s20_SwiftNewtypeWrapperP", "basalEnergyBurned"]
+- ["s20_SwiftNewtypeWrapperP", "biologicalSex"]
+- ["s20_SwiftNewtypeWrapperP", "bloodAlcoholContent"]
+- ["s20_SwiftNewtypeWrapperP", "bloodGlucose"]
+- ["s20_SwiftNewtypeWrapperP", "bloodPressureDiastolic"]
+- ["s20_SwiftNewtypeWrapperP", "bloodPressureSystolic"]
+- ["s20_SwiftNewtypeWrapperP", "bloodType"]
+- ["s20_SwiftNewtypeWrapperP", "bodyFatPercentage"]
+- ["s20_SwiftNewtypeWrapperP", "bodyMass"]
+- ["s20_SwiftNewtypeWrapperP", "bodyMassIndex"]
+- ["s20_SwiftNewtypeWrapperP", "bodyTemperature"]
+- ["s20_SwiftNewtypeWrapperP", "cervicalMucusQuality"]
+- ["s20_SwiftNewtypeWrapperP", "dateOfBirth"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryCaffeine"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryCalcium"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryCarbohydrates"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryChloride"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryCholesterol"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryChromium"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryCopper"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryEnergyConsumed"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFatMonounsaturated"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFatPolyunsaturated"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFatSaturated"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFatTotal"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFiber"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryFolate"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryIodine"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryIron"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryMagnesium"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryManganese"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryMolybdenum"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryNiacin"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryPantothenicAcid"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryPhosphorus"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryPotassium"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryProtein"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryRiboflavin"]
+- ["s20_SwiftNewtypeWrapperP", "dietarySelenium"]
+- ["s20_SwiftNewtypeWrapperP", "dietarySodium"]
+- ["s20_SwiftNewtypeWrapperP", "dietarySugar"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminA"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminB12"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminB6"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminC"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminD"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminE"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryVitaminK"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryWater"]
+- ["s20_SwiftNewtypeWrapperP", "dietaryZinc"]
+- ["s20_SwiftNewtypeWrapperP", "distanceCycling"]
+- ["s20_SwiftNewtypeWrapperP", "distanceSwimming"]
+- ["s20_SwiftNewtypeWrapperP", "distanceWalkingRunning"]
+- ["s20_SwiftNewtypeWrapperP", "distanceWheelchair"]
+- ["s20_SwiftNewtypeWrapperP", "electrodermalActivity"]
+- ["s20_SwiftNewtypeWrapperP", "fitzpatrickSkinType"]
+- ["s20_SwiftNewtypeWrapperP", "flightsClimbed"]
+- ["s20_SwiftNewtypeWrapperP", "forcedExpiratoryVolume1"]
+- ["s20_SwiftNewtypeWrapperP", "forcedVitalCapacity"]
+- ["s20_SwiftNewtypeWrapperP", "heartRate"]
+- ["s20_SwiftNewtypeWrapperP", "height"]
+- ["s20_SwiftNewtypeWrapperP", "inhalerUsage"]
+- ["s20_SwiftNewtypeWrapperP", "intermenstrualBleeding"]
+- ["s20_SwiftNewtypeWrapperP", "leanBodyMass"]
+- ["s20_SwiftNewtypeWrapperP", "menstrualFlow"]
+- ["s20_SwiftNewtypeWrapperP", "nikeFuel"]
+- ["s20_SwiftNewtypeWrapperP", "numberOfTimesFallen"]
+- ["s20_SwiftNewtypeWrapperP", "ovulationTestResult"]
+- ["s20_SwiftNewtypeWrapperP", "oxygenSaturation"]
+- ["s20_SwiftNewtypeWrapperP", "peakExpiratoryFlowRate"]
+- ["s20_SwiftNewtypeWrapperP", "respiratoryRate"]
+- ["s20_SwiftNewtypeWrapperP", "sexualActivity"]
+- ["s20_SwiftNewtypeWrapperP", "sleepAnalysis"]
+- ["s20_SwiftNewtypeWrapperP", "stepCount"]
+- ["s20_SwiftNewtypeWrapperP", "uvExposure"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "Se"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- "So21OS_dispatch_semaphoreC"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So15HKBiologicalSexV"
+- !private "So11HKBloodTypeV"
+- "So24HKCategoryTypeIdentifiera"
+- "So30HKCharacteristicTypeIdentifiera"
+- !private "So21HKFitzpatrickSkinTypeV"
+- "So12HKObjectTypeC"
+- "So24HKQuantityTypeIdentifiera"
+- "12HKDataExport12HKRepositoryP"
+- "12HKDataExport15HKRepositoryImpC"
+- "12HKDataExport9HKServiceP"
+- "12HKDataExport14HKServiceErrorO"
+- "12HKDataExport12HKServiceImpC"
+- "12HKDataExport9HKStorageP"
+- "12HKDataExport12HKStorageImpC"
+- !private "So6HKUnitC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So9OS_objectC"
+- "So16NSOperationQueueC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1be7d1167a2d3a97080a61b7ad969ac0"

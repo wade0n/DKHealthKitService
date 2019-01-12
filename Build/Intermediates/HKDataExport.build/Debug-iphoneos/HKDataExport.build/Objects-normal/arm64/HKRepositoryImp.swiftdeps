@@ -1,0 +1,551 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HKRepositoryError"
+- "HKRepositoryImp"
+provides-nominal:
+- "12HKDataExport17HKRepositoryErrorO"
+- "12HKDataExport15HKRepositoryImpC"
+provides-member:
+- ["12HKDataExport17HKRepositoryErrorO", ""]
+- ["12HKDataExport15HKRepositoryImpC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "Calendar"
+- "CastingPrecedence"
+- "Date"
+- "Error"
+- !private "FloatLiteralType"
+- "HKActivitySummary"
+- !private "HKActivitySummaryQuery"
+- !private "HKAnchoredObjectQuery"
+- "HKBiologicalSex"
+- "HKBloodType"
+- "HKCategorySample"
+- "HKCategoryType"
+- "HKFitzpatrickSkinType"
+- "HKHealthStore"
+- !private "HKObjectQueryNoLimit"
+- "HKObjectType"
+- "HKQuantitySample"
+- "HKQuantityType"
+- !private "HKQuery"
+- "HKQueryAnchor"
+- "HKRepository"
+- "HKRepositoryError"
+- "HKRepositoryImp"
+- !private "HKSampleQuery"
+- "HKSampleType"
+- "HKWorkout"
+- !private "IntegerLiteralType"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- !private "TimeZone"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "biologicalSex"]
+- !private ["s7CVarArgP", "bloodType"]
+- !private ["s7CVarArgP", "dateOfBirthComponents"]
+- !private ["s7CVarArgP", "execute"]
+- !private ["s7CVarArgP", "fitzpatrickSkinType"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHealthDataAvailable"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "predicateForSamples"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "skinType"]
+- !private ["s7CVarArgP", "workoutType"]
+- !private ["10Foundation8CalendarV", "Component"]
+- !private ["10Foundation8CalendarV", "current"]
+- !private ["10Foundation8CalendarV", "dateComponents"]
+- !private ["10Foundation8CalendarV", "timeZone"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "addingTimeInterval"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation8CalendarV9ComponentO", "day"]
+- !private ["10Foundation8CalendarV9ComponentO", "month"]
+- !private ["10Foundation8CalendarV9ComponentO", "year"]
+- !private ["s28CustomDebugStringConvertibleP", "Component"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "biologicalSex"]
+- !private ["s28CustomDebugStringConvertibleP", "bloodType"]
+- !private ["s28CustomDebugStringConvertibleP", "calendar"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "dateOfBirthComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "execute"]
+- !private ["s28CustomDebugStringConvertibleP", "fitzpatrickSkinType"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "predicateForSamples"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "skinType"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "workoutType"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Component"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "calendar"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "date"]
+- !private ["s17CustomReflectableP", "dateComponents"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "Component"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "biologicalSex"]
+- !private ["s23CustomStringConvertibleP", "bloodType"]
+- !private ["s23CustomStringConvertibleP", "calendar"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateComponents"]
+- !private ["s23CustomStringConvertibleP", "dateOfBirthComponents"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "fitzpatrickSkinType"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "predicateForSamples"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "skinType"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "workoutType"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation14DateComponentsV", "calendar"]
+- !private ["10Foundation14DateComponentsV", "date"]
+- !private ["Se", "Component"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["Se", "append"]
+- !private ["Se", "calendar"]
+- !private ["Se", "current"]
+- !private ["Se", "date"]
+- !private ["Se", "dateComponents"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "timeZone"]
+- !private ["SE", "Component"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SE", "append"]
+- !private ["SE", "calendar"]
+- !private ["SE", "current"]
+- !private ["SE", "date"]
+- !private ["SE", "dateComponents"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "timeZone"]
+- !private ["SQ", "Component"]
+- !private ["SQ", "addingTimeInterval"]
+- !private ["SQ", "append"]
+- !private ["SQ", "biologicalSex"]
+- !private ["SQ", "bloodType"]
+- !private ["SQ", "calendar"]
+- !private ["SQ", "current"]
+- !private ["SQ", "date"]
+- !private ["SQ", "dateComponents"]
+- !private ["SQ", "dateOfBirthComponents"]
+- !private ["SQ", "day"]
+- !private ["SQ", "execute"]
+- !private ["SQ", "fitzpatrickSkinType"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHealthDataAvailable"]
+- !private ["SQ", "month"]
+- !private ["SQ", "predicate"]
+- !private ["SQ", "predicateForSamples"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "skinType"]
+- !private ["SQ", "strictEndDate"]
+- !private ["SQ", "strictStartDate"]
+- !private ["SQ", "timeZone"]
+- !private ["SQ", "workoutType"]
+- !private ["SQ", "year"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s5ErrorP", "notAvailable"]
+- !private ["s5ErrorP", "serviceError"]
+- !private ["6SQLite11ExpressibleP", "addingTimeInterval"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "strictEndDate"]
+- !private ["s25ExpressibleByArrayLiteralP", "strictStartDate"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So22HKActivitySummaryQueryC", "init"]
+- !private ["So22HKActivitySummaryQueryC", "init"]
+- !private ["So21HKAnchoredObjectQueryC", "init"]
+- !private ["So21HKBiologicalSexObjectC", "biologicalSex"]
+- !private ["So17HKBloodTypeObjectC", "bloodType"]
+- !private ["So27HKFitzpatrickSkinTypeObjectC", "skinType"]
+- !private ["So13HKHealthStoreC", "biologicalSex"]
+- !private ["So13HKHealthStoreC", "bloodType"]
+- !private ["So13HKHealthStoreC", "dateOfBirthComponents"]
+- !private ["So13HKHealthStoreC", "execute"]
+- !private ["So13HKHealthStoreC", "fitzpatrickSkinType"]
+- ["So13HKHealthStoreC", "init"]
+- !private ["So13HKHealthStoreC", "isHealthDataAvailable"]
+- !private ["So13HKHealthStoreC", "requestAuthorization"]
+- !private ["So12HKObjectTypeC", "workoutType"]
+- !private ["So7HKQueryC", "init"]
+- !private ["So7HKQueryC", "init"]
+- !private ["So7HKQueryC", "predicate"]
+- !private ["So7HKQueryC", "predicateForSamples"]
+- !private ["So14HKQueryOptionsV", "strictEndDate"]
+- !private ["So14HKQueryOptionsV", "strictStartDate"]
+- !private ["12HKDataExport12HKRepositoryP", "Calendar"]
+- !private ["12HKDataExport12HKRepositoryP", "Date"]
+- !private ["12HKDataExport12HKRepositoryP", "HKActivitySummaryQuery"]
+- !private ["12HKDataExport12HKRepositoryP", "HKAnchoredObjectQuery"]
+- ["12HKDataExport12HKRepositoryP", "HKHealthStore"]
+- !private ["12HKDataExport12HKRepositoryP", "HKObjectQueryNoLimit"]
+- !private ["12HKDataExport12HKRepositoryP", "HKObjectType"]
+- !private ["12HKDataExport12HKRepositoryP", "HKQuery"]
+- !private ["12HKDataExport12HKRepositoryP", "HKRepositoryError"]
+- !private ["12HKDataExport12HKRepositoryP", "HKSampleQuery"]
+- !private ["12HKDataExport12HKRepositoryP", "TimeZone"]
+- ["12HKDataExport12HKRepositoryP", ""]
+- ["12HKDataExport12HKRepositoryP", "getActivities"]
+- ["12HKDataExport12HKRepositoryP", "getBirthDay"]
+- ["12HKDataExport12HKRepositoryP", "getBloodType"]
+- ["12HKDataExport12HKRepositoryP", "getCategorySamples"]
+- ["12HKDataExport12HKRepositoryP", "getQuantitySamples"]
+- ["12HKDataExport12HKRepositoryP", "getSex"]
+- ["12HKDataExport12HKRepositoryP", "getSkinType"]
+- ["12HKDataExport12HKRepositoryP", "getWorkoutSamples"]
+- ["12HKDataExport12HKRepositoryP", "isHKAvailable"]
+- ["12HKDataExport12HKRepositoryP", "requestAuthorization"]
+- !private ["12HKDataExport12HKRepositoryP", "store"]
+- ["12HKDataExport17HKRepositoryErrorO", "String"]
+- ["12HKDataExport17HKRepositoryErrorO", "_code"]
+- ["12HKDataExport17HKRepositoryErrorO", "_domain"]
+- ["12HKDataExport17HKRepositoryErrorO", "_getEmbeddedNSError"]
+- ["12HKDataExport17HKRepositoryErrorO", "_userInfo"]
+- ["12HKDataExport17HKRepositoryErrorO", "deinit"]
+- ["12HKDataExport17HKRepositoryErrorO", "notAuthorized"]
+- ["12HKDataExport17HKRepositoryErrorO", "notAvailable"]
+- ["12HKDataExport17HKRepositoryErrorO", "serviceError"]
+- ["12HKDataExport15HKRepositoryImpC", "Bool"]
+- !private ["12HKDataExport15HKRepositoryImpC", "Calendar"]
+- ["12HKDataExport15HKRepositoryImpC", "Date"]
+- ["12HKDataExport15HKRepositoryImpC", "Error"]
+- ["12HKDataExport15HKRepositoryImpC", "HKActivitySummary"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKActivitySummaryQuery"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKAnchoredObjectQuery"]
+- ["12HKDataExport15HKRepositoryImpC", "HKBiologicalSex"]
+- ["12HKDataExport15HKRepositoryImpC", "HKBloodType"]
+- ["12HKDataExport15HKRepositoryImpC", "HKCategorySample"]
+- ["12HKDataExport15HKRepositoryImpC", "HKCategoryType"]
+- ["12HKDataExport15HKRepositoryImpC", "HKFitzpatrickSkinType"]
+- ["12HKDataExport15HKRepositoryImpC", "HKHealthStore"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKObjectQueryNoLimit"]
+- ["12HKDataExport15HKRepositoryImpC", "HKObjectType"]
+- ["12HKDataExport15HKRepositoryImpC", "HKQuantitySample"]
+- ["12HKDataExport15HKRepositoryImpC", "HKQuantityType"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKQuery"]
+- ["12HKDataExport15HKRepositoryImpC", "HKQueryAnchor"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKRepositoryError"]
+- !private ["12HKDataExport15HKRepositoryImpC", "HKSampleQuery"]
+- ["12HKDataExport15HKRepositoryImpC", "HKSampleType"]
+- ["12HKDataExport15HKRepositoryImpC", "HKWorkout"]
+- ["12HKDataExport15HKRepositoryImpC", "Set"]
+- ["12HKDataExport15HKRepositoryImpC", "Swift"]
+- !private ["12HKDataExport15HKRepositoryImpC", "TimeZone"]
+- ["12HKDataExport15HKRepositoryImpC", "deinit"]
+- ["12HKDataExport15HKRepositoryImpC", "getActivities"]
+- ["12HKDataExport15HKRepositoryImpC", "getBirthDay"]
+- ["12HKDataExport15HKRepositoryImpC", "getBloodType"]
+- ["12HKDataExport15HKRepositoryImpC", "getCategorySamples"]
+- ["12HKDataExport15HKRepositoryImpC", "getQuantitySamples"]
+- ["12HKDataExport15HKRepositoryImpC", "getSex"]
+- ["12HKDataExport15HKRepositoryImpC", "getSkinType"]
+- ["12HKDataExport15HKRepositoryImpC", "getWorkoutSamples"]
+- ["12HKDataExport15HKRepositoryImpC", "init"]
+- ["12HKDataExport15HKRepositoryImpC", "isHKAvailable"]
+- ["12HKDataExport15HKRepositoryImpC", "requestAuthorization"]
+- !private ["12HKDataExport15HKRepositoryImpC", "store"]
+- !private ["So13HKSampleQueryC", "init"]
+- !private ["So13HKSampleQueryC", "init"]
+- !private ["SH", "Component"]
+- !private ["SH", "addingTimeInterval"]
+- !private ["SH", "append"]
+- !private ["SH", "biologicalSex"]
+- !private ["SH", "bloodType"]
+- !private ["SH", "calendar"]
+- !private ["SH", "current"]
+- !private ["SH", "date"]
+- !private ["SH", "dateComponents"]
+- !private ["SH", "dateOfBirthComponents"]
+- !private ["SH", "day"]
+- !private ["SH", "execute"]
+- !private ["SH", "fitzpatrickSkinType"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isHealthDataAvailable"]
+- !private ["SH", "month"]
+- !private ["SH", "predicate"]
+- !private ["SH", "predicateForSamples"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "skinType"]
+- !private ["SH", "timeZone"]
+- !private ["SH", "workoutType"]
+- !private ["SH", "year"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["So8NSCodingP", "biologicalSex"]
+- !private ["So8NSCodingP", "bloodType"]
+- !private ["So8NSCodingP", "skinType"]
+- !private ["So8NSCodingP", "workoutType"]
+- !private ["So9NSCopyingP", "biologicalSex"]
+- !private ["So9NSCopyingP", "bloodType"]
+- !private ["So9NSCopyingP", "skinType"]
+- !private ["So9NSCopyingP", "workoutType"]
+- !private ["So8NSObjectC", "biologicalSex"]
+- !private ["So8NSObjectC", "bloodType"]
+- !private ["So8NSObjectC", "dateOfBirthComponents"]
+- !private ["So8NSObjectC", "execute"]
+- !private ["So8NSObjectC", "fitzpatrickSkinType"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHealthDataAvailable"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "predicateForSamples"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "skinType"]
+- !private ["So8NSObjectC", "workoutType"]
+- !private ["So8NSObjectP", "biologicalSex"]
+- !private ["So8NSObjectP", "bloodType"]
+- !private ["So8NSObjectP", "dateOfBirthComponents"]
+- !private ["So8NSObjectP", "execute"]
+- !private ["So8NSObjectP", "fitzpatrickSkinType"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHealthDataAvailable"]
+- !private ["So8NSObjectP", "predicate"]
+- !private ["So8NSObjectP", "predicateForSamples"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "skinType"]
+- !private ["So8NSObjectP", "workoutType"]
+- !private ["So14NSSecureCodingP", "biologicalSex"]
+- !private ["So14NSSecureCodingP", "bloodType"]
+- !private ["So14NSSecureCodingP", "skinType"]
+- !private ["So14NSSecureCodingP", "workoutType"]
+- !private ["s9OptionSetP", "strictEndDate"]
+- !private ["s9OptionSetP", "strictStartDate"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "strictEndDate"]
+- !private ["SY", "strictStartDate"]
+- !private ["10Foundation20ReferenceConvertibleP", "Component"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "calendar"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "date"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateComponents"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeZone"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s10SetAlgebraP", "strictEndDate"]
+- !private ["s10SetAlgebraP", "strictStartDate"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "current"]
+- !private ["6SQLite5ValueP", "addingTimeInterval"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "biologicalSex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bloodType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateOfBirthComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "execute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fitzpatrickSkinType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHealthDataAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicateForSamples"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skinType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "workoutType"]
+- !private ["10Foundation14_MutableBoxingP", "Component"]
+- !private ["10Foundation14_MutableBoxingP", "calendar"]
+- !private ["10Foundation14_MutableBoxingP", "current"]
+- !private ["10Foundation14_MutableBoxingP", "date"]
+- !private ["10Foundation14_MutableBoxingP", "dateComponents"]
+- !private ["10Foundation14_MutableBoxingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "Component"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "calendar"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "date"]
+- !private ["s21_ObjectiveCBridgeableP", "dateComponents"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeZone"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "6SQLite7BindingP"
+- "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s5ErrorP"
+- !private "6SQLite11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So22HKActivitySummaryQueryC"
+- !private "So21HKAnchoredObjectQueryC"
+- !private "So21HKBiologicalSexObjectC"
+- !private "So17HKBloodTypeObjectC"
+- !private "So27HKFitzpatrickSkinTypeObjectC"
+- "So13HKHealthStoreC"
+- !private "So12HKObjectTypeC"
+- !private "So7HKQueryC"
+- !private "So14HKQueryOptionsV"
+- "12HKDataExport12HKRepositoryP"
+- "12HKDataExport17HKRepositoryErrorO"
+- "12HKDataExport15HKRepositoryImpC"
+- !private "So13HKSampleQueryC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "6SQLite5ValueP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation14_MutableBoxingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/dmitriikalashnikov/HKDataExport/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "729dc1175630c8079b6bffd182b7c0f1"

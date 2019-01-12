@@ -1,0 +1,85 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HKRepository"
+provides-nominal:
+- "12HKDataExport12HKRepositoryP"
+provides-member:
+- ["12HKDataExport12HKRepositoryP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "Date"
+- "Error"
+- "HKActivitySummary"
+- "HKBiologicalSex"
+- "HKBloodType"
+- "HKCategorySample"
+- "HKCategoryType"
+- "HKFitzpatrickSkinType"
+- "HKObjectType"
+- "HKQuantitySample"
+- "HKQuantityType"
+- "HKQueryAnchor"
+- "HKRepository"
+- "HKSampleType"
+- "HKWorkout"
+- "Set"
+- "Swift"
+depends-member:
+- ["12HKDataExport12HKRepositoryP", "Bool"]
+- ["12HKDataExport12HKRepositoryP", "Date"]
+- ["12HKDataExport12HKRepositoryP", "Error"]
+- ["12HKDataExport12HKRepositoryP", "HKActivitySummary"]
+- ["12HKDataExport12HKRepositoryP", "HKBiologicalSex"]
+- ["12HKDataExport12HKRepositoryP", "HKBloodType"]
+- ["12HKDataExport12HKRepositoryP", "HKCategorySample"]
+- ["12HKDataExport12HKRepositoryP", "HKCategoryType"]
+- ["12HKDataExport12HKRepositoryP", "HKFitzpatrickSkinType"]
+- ["12HKDataExport12HKRepositoryP", "HKObjectType"]
+- ["12HKDataExport12HKRepositoryP", "HKQuantitySample"]
+- ["12HKDataExport12HKRepositoryP", "HKQuantityType"]
+- ["12HKDataExport12HKRepositoryP", "HKQueryAnchor"]
+- ["12HKDataExport12HKRepositoryP", "HKSampleType"]
+- ["12HKDataExport12HKRepositoryP", "HKWorkout"]
+- ["12HKDataExport12HKRepositoryP", "Set"]
+- ["12HKDataExport12HKRepositoryP", "Swift"]
+- ["12HKDataExport12HKRepositoryP", "getActivities"]
+- ["12HKDataExport12HKRepositoryP", "getBirthDay"]
+- ["12HKDataExport12HKRepositoryP", "getBloodType"]
+- ["12HKDataExport12HKRepositoryP", "getCategorySamples"]
+- ["12HKDataExport12HKRepositoryP", "getQuantitySamples"]
+- ["12HKDataExport12HKRepositoryP", "getSex"]
+- ["12HKDataExport12HKRepositoryP", "getSkinType"]
+- ["12HKDataExport12HKRepositoryP", "getWorkoutSamples"]
+- ["12HKDataExport12HKRepositoryP", "isHKAvailable"]
+- ["12HKDataExport12HKRepositoryP", "requestAuthorization"]
+depends-nominal:
+- "12HKDataExport12HKRepositoryP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7530b2d369e55cb52593bb48712ddb33"

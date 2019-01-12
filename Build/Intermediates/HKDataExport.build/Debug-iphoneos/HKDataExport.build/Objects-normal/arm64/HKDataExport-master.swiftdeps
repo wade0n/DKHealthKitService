@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "09cca58e711b5a6d8dfd13e2c3f9f917"
+build_time: [1547323721, 862360000]
+inputs:
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/Repository/HKRepository.swift": !dirty [1547143401, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/Repository/HKRepositoryImp.swift": !dirty [1547143450, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/HKService.swift": !dirty [1547143174, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Extensions/ArrayExtension.swift": !dirty [1547143466, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/Storage/HKStorageImp.swift": !dirty [1547143366, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/ViewController.swift": !dirty [1547308250, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/AppDelegate.swift": !dirty [1547142098, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/HKServiceImp.swift": !dirty [1547143280, 0]
+  "/Users/dmitriikalashnikov/HKDataExport/HKDataExport/HKService/Service/Storage/HKStorage.swift": !dirty [1547143326, 0]

@@ -1,0 +1,6 @@
+module Pods_HKDataExport {
+  umbrella header "Pods-HKDataExport-umbrella.h"
+
+  export *
+  module * { export * }
+}
